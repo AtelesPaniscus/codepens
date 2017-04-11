@@ -1,0 +1,45 @@
+body {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+#page {
+  background: lightseagreen; /* For browsers that do not support gradients */
+  background: mediumseagreen; /* For browsers that do not support gradients */
+  background: -webkit-radial-gradient(circle, , darkseagreen, mediumseagreen, lightseagreen); /* Safari */
+  background: -o-radial-gradient(circle, , darkseagreen, mediumseagreen, lightseagreen); /* Opera 11.6 to 12.0 */
+  background: -moz-radial-gradient(circle, darkseagreen, mediumseagreen, lightseagreen); /* Firefox 3.6 to 15 */
+  background: radial-gradient(circle, darkseagreen, mediumseagreen, lightseagreen); /* Standard syntax */
+}
+
+#navbar         { font-weight: bold; background-color: initial; border-width: 0px; }
+#paniscus       { font-weight: bold; background-color: initial; }
+#portfolio      { font-weight: bold; background-color: initial; }
+#social         { background-color: initial; border-color: initial; }
+
+#navbar div a   { font-size: 16pt; color: cyan; }
+#navbar  ul a   { font-size: 20pt; color: blue; }
+
+p.intro::first-letter { font-size:150%; }
+
+.highlight       { display: inline; }
+
+.highlight:hover { background-color: mediumseagreen; }
+
+.caption        { color: white; }
+
+#avatar {
+    width: 240px;
+    height: 240px;
+    float: right;
+    background: url("http://pin.primate.wisc.edu/fs/sheets/images/329lg.jpg");
+    background-size: cover;
+    border-radius: 200px;
+}
+
+.thumbnailimage {
+    width: 100%;
+    border: 1px solid black;
+    border-radius: 4px;
+    padding: 5px;
+}

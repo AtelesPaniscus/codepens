@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>Personal Portfolio Page</title>
+  <title>Paniscus Ateles Portfolio Page</title>
+<meta charset="UTF-8" />
+<meta name="description" content="Portfolio Page for Paniscus Ateles />
+<meta name="keywords" content="FCC Challenge" />
+<meta name="author" content="Paniscus Ateles" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+
+  <link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css'>
+
+      <link rel="stylesheet" href="css/style.css">
+
+
+</head>
+
+<body>
+  <div id="page" class="container panel panel-default">
+  <nav id="navbar" class="panel-heading navbar navbar-default">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <a class="navbar-brand" href="#">Paniscus Ateles</a>
+      </div>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#">Home</a></li>
+        <li><a href="#paniscus">About</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#social">Links</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <section id="paniscus" class="jumbotron panel-body">
+    <h1 class="text-center"><strong>Paniscus Ateles</strong></h1>
+    <p class="text-center"><em>[rĕd ′fāst′ spī′dər mŭng′kē]</em></p>
+    <div title="Photo credit: R. Day" id="avatar"></div>
+    <p class="intro"><span class="highlight">A wise old man of the woods foretold one day I would make an excellent web code monkey.  I blushed.</span></p>
+    <p class="intro"><span class="highlight">Overcoming my shyness, I joined the Free Code Camp.</span></p>
+    <p class="intro"><span class="highlight">This is my portfolio page.</span></p>
+    <p class="intro"><span class="highlight">I'm having fun hanging out with HTML and CSS.</span></p>
+    <p class="intro"><span class="highlight">I've had a swing round Bootstrap and JQuery.</span></p>
+    <p class="intro"><span class="highlight">I'm currently clambering up JavaScript.</span></p>
+  </section>
+
+  <section id="portfolio" class="panel-body text-center">
+    <h1>My Portfolio So Far ...</h1>  <!--Thumbnails - In a carousel someday-->
+    <div class="row" style="margin-top: 50px;">
+      <div class="col-sm-3">
+        <a href="https://codepen.io/AtelesPaniscus/full/pRByQZ/" target="_blank">
+          <img id="ptp" class="thumbnailimage" alt="Tribute Page"
+               src="https://github.com/AtelesPaniscus/fcc-fed-codepens/blob/master/tribute-page/thumbnail.png?raw=true">
+          <div class="caption">
+            <p>Free Code Camp Tribute Page</p>
+          </div>
+        </a>
+      </div>
+      <div class="col-sm-3">
+        <a href="https://codepen.io/AtelesPaniscus/full/qRGyNB/" target="_blank">
+          <img id="ppp" class="thumbnailimage" alt="Portfolio Page"
+               src="https://github.com/AtelesPaniscus/fcc-fed-codepens/blob/master/personal-portfolio-page/thumbnail.png?raw=true">
+          <div class="caption">
+            <p>Free Code Camp Portfolio Page</p>
+          </div>
+        </a>
+      </div>
+      <div class="col-sm-3">
+        <a href="#portfolio" target!="_blank">
+          <img id="wip" class="thumbnailimage" alt="Coming Soon"
+               src="http://homebizzguide.com/wp-content/uploads/2013/04/WebsiteDesign-e1366253288384.jpg">
+          <div class="caption">
+            <p>Coming Soon</p>
+          </div>
+        </a>
+      </div>
+      <div class="col-sm-3">
+        <a href="#portfolio" target!="_blank">
+          <img id="csa" class="thumbnailimage" alt="Coming Soon After"
+               src="http://lerablog.org/wp-content/uploads/2013/05/webdesign-agency.jpg">
+          <div class="caption">
+            <p>Coming Soon After</p>
+          </div>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <footer id="social" class="panel-footer text-center">
+  <!-- <h1>Social Media Links</h1><br> -->
+    <a href="https://www.freecodecamp.com/atelespaniscus/" target="_blank" class="btn" role="button"
+       title="Paniscus Ateles @ Free Code Camp">
+      <i style="font-size:20pt" class="img-responsive fa fa-free-code-camp"></i>
+    </a>
+    <a href=#social class="btn" role="button" onclick="this.style.visibility='hidden'"
+       title="Don't be silly">
+      <i style="font-size:20pt" class="img-responsive fa fa-linkedin"></i>
+    </a>
+    <a href="https://www.facebook.com/PaniscusAteles/" target="_blank" class="btn" role="button"
+       title="Paniscus Ateles @ Facebook">
+      <i style="font-size:20pt" class="img-responsive fa fa-facebook"></i>
+    </a>
+    <a href=#social class="btn" role="button" onclick="this.style.visibility='hidden'"
+       title="I'm simian, not avian">
+      <i style="font-size:20pt" class="img-responsive fa fa-twitter"></i>
+    </a>
+    <a href="https://github.com/AtelesPaniscus/" target="_blank" class="btn" role="button"
+       title="Paniscus Ateles @ GitHub">
+      <i style="font-size:20pt" class="img-responsive fa fa-github"></i>
+    </a>
+    <a href=#social class="btn" role="button">
+      <img id="a50" title="Article 50" alt="Article 50" class="img-responsive" width=32px height=32px src="http://www.envrisk.com/wp-content/uploads/2013/08/Hazardous-Waste-Symbol.jpg">
+    </a>
+  <footer>
+</div>
+
+<!--
+<br><hr>
+<div class="container">
+  <h1 class="text-primary text-center">
+    Build a Personal Portfolio Page
+  </h1>
+  <p>
+    <strong>Objective:</strong>
+    Build a CodePen.io app that is functionally similar to this
+    <a target='_blank' href=https://codepen.io/FreeCodeCamp/full/YqLyXB/>example</a>.
+  </p>
+  <p>
+    Fulfil the user stories below. Use whichever libraries you need. Give it your own personal style.
+  </p>
+  <p>
+    <strong>User Story:</strong>
+    I can access all of the portfolio webpage's content just by scrolling.
+  </p>
+  <p>
+    <strong>User Story:</strong>
+    I can click different buttons that will take me to the portfolio creator's different social media pages.
+  </p>
+  <p>
+    <strong>User Story:</strong>
+    I can see thumbnail images of different projects the portfolio creator has built (if you haven't built any websites before, use placeholders.)
+  </p>
+  <p>
+    <strong>User Story:</strong>
+    I navigate to different sections of the webpage by clicking buttons in the navigation.
+  </p>
+  <p>
+    Don't worry if you don't have anything to showcase on your portfolio yet - you will build several apps on the next few CodePen challenges, and can come back and update your portfolio later.
+  </p>
+  <p>
+    There are many great portfolio templates out there already. However, you should consider building your portfolio page as much as you can from the ground up. Using Bootstrap can help make this process much easier for you.
+  </p>
+  <p>
+    Note that CodePen.io overrides the Window.open() function, so if you want to open windows using jQuery, you will need to target invisible anchor elements like this one: `&lt;a target="_blank"&gt`.
+  </p>
+  <p>
+    Remember to use Read-Search-Ask if you get stuck.
+  </p>
+  <p>
+    When you are finished, click the "I've completed this challenge" button and include a link to your CodePen.
+  </p>
+  <p>
+    You can get feedback on your project by sharing it with your friends on Facebook.
+  </p>
+</div>
+-->
+  <script src='https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js'></script>
+<script src='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js'></script>
+<script src='https://use.fontawesome.com/aa4465e78d.js'></script>
+
+    <script  src="js/index.js"></script>
+
+</body>
+</html>
