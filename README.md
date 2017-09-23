@@ -7,4 +7,6 @@ Source archived from CodePen.io using the 'export as zip' function.
   * Tribute Page - Ælfred the Great
   * Personal Portfolio Page - Paniscus Ateles
 
+The Orbitron font is for use in the Java Script Calculator.
+
 <!-- EOF -->
