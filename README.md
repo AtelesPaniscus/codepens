@@ -8,5 +8,6 @@ Source archived from CodePen.io using the 'export as zip' function.
   * Personal Portfolio Page - Paniscus Ateles
 
 The Orbitron font is for use in the Java Script Calculator.
+The sounds are for use by the Pomodoro Clock.
 
 <!-- EOF -->
