@@ -1,0 +1,90 @@
+body {
+  background-color: lightyellow;
+  height: 98%;
+  margin: 0;
+  padding: 0;
+}
+
+#page {
+  min-height: 100%;
+/*position: relative;*/
+}
+
+header {
+  color: black;
+  font-size: 24pt;
+  font-weight: bold;
+  padding: 24px;
+  text-align: center;
+}
+
+main {
+  margin: auto;
+  padding-bottom: 1em;
+  text-align: center;
+  width: 350px;
+}
+
+#quotearea {
+  border: 1px solid black;
+  padding: 20px;
+  width: inherit;
+}
+
+#button-area {
+  height: 40px;
+  margin: 10px;
+  width: inherit;
+}
+
+#quote-button {
+  border-width: 5px;
+  height: inherit;
+  margin: 0px 20px;
+  vertical-align: super;
+}
+
+#tweet-url {
+  float: right;
+  height: inherit;
+}
+
+#tweet-button {
+  border-width: 5px;
+  height: inherit;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+footer {
+  bottom: 0;
+  font-size: 8pt;
+  height: 1em;
+  margin: 1%;
+  padding: 2pt;
+  position: relative;
+  width: 96%;
+}
+
+.footer-span {
+  border: 4px double;
+  padding: 3px 5px;
+}
+
+footer a {
+  font-style: italic;
+}
+
+footer #noscript {
+  border: 4px double black;
+  color: red;
+  display: inline-block;
+  text-align: center;
+  width: 100%;
+}
+
+li {
+  padding: 10px;
+}
