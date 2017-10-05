@@ -1,0 +1,95 @@
+body {
+  background-color: aliceblue;
+  height: 98%;
+  margin: 0;
+  padding: 0;
+}
+
+#page {
+  min-height: 100%;
+/*position: relative;*/
+}
+
+header {
+  color: black;
+  font-size: 24pt;
+  font-weight: bold;
+  padding: 24px;
+  text-align: center;
+
+  position: fixed; 
+  left: 50%;
+  top: 0%; 
+  transform: translate(-50%, 0%);
+}
+
+main {
+  padding-bottom: 1em;
+  text-align: center;
+
+  position: fixed; 
+  left: 50%;
+  top: 50%; 
+  transform: translate(-50%, -50%);
+}
+
+.report {
+  margin: 20px 0px;
+}
+
+.movement {
+  position: relative;
+  animation-name: example;
+  animation-duration: 2.5s;
+  animation-timing-function: ease-out;
+}
+
+@keyframes example {
+    0% { left: -500%; }
+  100% { left:    0%; }
+}
+
+#temperature {
+  border: 0px;
+  margin: 0px;
+  padding: 0px;
+}
+
+#scale-button {
+  border: 0px;
+  color: darkblue;
+  cursor: pointer;
+  margin: 0px;
+  padding: 0px;
+}
+
+footer {
+  bottom: 0;
+  font-size: 8pt;
+  height: 1em;
+  margin: 1%;
+  padding: 2pt;
+  position: absolute;
+  width: 96%;
+}
+
+.footer-span {
+  border: 4px double;
+  padding: 3px 5px;
+}
+
+footer a {
+  font-style: italic;
+}
+
+footer #noscript {
+  border: 4px double black;
+  color: red;
+  display: inline-block;
+  text-align: center;
+  width: 100%;
+}
+
+li {
+  padding: 10px;
+}
