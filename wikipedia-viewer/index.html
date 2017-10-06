@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>Wikipedia Viewer</title>
+  
+  
+  
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+  <div id="page">
+  <header>
+    A Wikipedia Viewer
+  </header>
+
+  <main>
+    <div>
+      <a target="viewer"
+href="https://en.wikipedia.org/wiki/Special:Random">
+        <button type="button" class="activate-viewer"
+        title="Click to select Random Wikipedia Article">
+          <img alt="Random Article"
+src="https://feathericons.com/node_modules/feather-icons/dist/icons/help-circle.svg">
+        </button>
+      </a>
+      <button type="button" id="search-button"
+        title="Click to Search the Wikipedia">
+        <img alt="Search"
+src="https://feathericons.com/node_modules/feather-icons/dist/icons/search.svg">
+      </button>
+    </div>
+    <div>
+      <input id="term" type="text"
+             placeholder="Enter Search Term">
+    </div>
+    <div id="viewer-pane" hidden>
+      <iframe name="viewer" style="width:100%;height:550px">
+      </iframe>
+    </div>
+    <div id="results-pane" class="activate-viewer" hidden>
+    </div>
+  </main>
+
+  <footer>
+    <span hidden class="footer-span" style="float:left;">
+      Pen by
+      <a href="https://www.freecodecamp.com/atelespaniscus">
+        Paniscus Ateles</a>, 2017
+    </span>
+    <span id="noscript">
+      Please enable JavaScript.
+      This pen requires jQuery from cloudflare.com.
+    </span>
+    <span hidden class="footer-span" style="float:right;">
+      <a href="https://www.freecodecamp.org/challenges/build-a-wikipedia-viewer">
+        Free Code Camp Project #5</a>
+    </span>
+  </footer>
+</div>
+
+<!--
+<h1>
+  Build a Wikipedia Viewer
+</h1>
+<ol>
+  </li>
+  <li>
+    <strong>Objective:</strong>
+    Build a CodePen.io app that is functionally similar to
+    <a href="https://codepen.io/FreeCodeCamp/full/wGqEga/">
+      this</a>.
+  </li>
+  <li>
+    Fulfill the below user stories. Use whichever libraries or APIs you need. Give it your own personal style.
+  </li>
+  <li>
+    <strong>User Story:</strong>
+    I can search Wikipedia entries in a search box and see the resulting Wikipedia entries.
+  </li>
+  <li>
+    <strong>User Story:</strong>
+    I can click a button to see a random Wikipedia entry.
+  </li>
+  <li>
+    <strong>Hint:</strong>
+    Here's a URL you can use to get a
+    <a href="https://en.wikipedia.org/wiki/Special:Random">
+      random Wikipedia</a> article.
+  </li>
+  <li>
+    <strong>Hint:</strong>
+    Here's an entry on using
+    <a href="https://www.mediawiki.org/wiki/API:Main_page">
+      Wikipedia's API</a>.
+  </li>
+  <li>
+    <strong>Hint:</strong>
+    Use this
+    <a href="https://en.wikipedia.org/wiki/Special:ApiSandbox#action=query&titles=Main%20Page&prop=revisions&rvprop=content&format=jsonfm">
+      link</a> to experiment with Wikipedia's API.
+  </li>
+  <li>
+    Remember to use Read-Search-Ask if you get stuck.
+  </li>
+  <li>
+    When you are finished, click the "I've completed this challenge" button and include a link to your CodePen.
+  </li>
+  <li>
+    You can get feedback on your project by sharing it with your friends on Facebook.
+  </li>
+</ol>
+-->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+
+    <script  src="js/index.js"></script>
+
+</body>
+</html>
