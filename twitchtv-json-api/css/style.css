@@ -1,0 +1,140 @@
+body {
+  background-color: lavender;
+  height: 98%;
+  margin: 0;
+  padding: 0;
+}
+
+#page {
+  min-height: 100%;
+/*position: relative;*/
+}
+
+header {
+  color: black;
+  font-size: 24pt;
+  font-weight: bold;
+  padding: 12px;
+  text-align: center;
+}
+
+main {
+  margin: auto;
+  padding-top: 12px;
+  padding-bottom: 1em;
+  text-align: center;
+  max-width: 80%;
+}
+
+#header {
+  background-color: olive;
+  border-bottom: 2px solid lavender;
+  font-family: sans-serif;
+  padding: 20px 0px;
+  width: 100%
+}
+
+#twitch {
+  float: left;
+  font-family: "Russo One", Audiowide, sans-serif;
+  font-size: 24pt;
+  padding: 0px 20px;
+  text-align: left;
+  width: 80%;
+}
+
+label {
+  float: left;
+  font-size: 10pt;
+}
+
+input {
+  float: right;
+}
+
+#stream-data {
+  clear: left;
+  white-space:nowrap;
+  width: 100%;
+}
+
+table {
+  border-collapse: collapse;
+  table-layout: fixed;
+  width: 100%;
+}
+
+tr {
+  border-bottom: 2px solid lavender;
+  height: 40px;
+  min-height: 40px;
+}
+
+tr.offline {
+  background-color: slateblue;
+}
+
+tr.online {
+  background-color: olive;
+}
+
+td.left {
+  width: 10%;
+}
+
+td.centre {
+  text-align: left;
+  width: 20%;
+}
+
+td.right {
+  text-align: center;
+  width: 70%;
+}
+
+img.icon {
+  border: 2px solid lavender;
+  border-radius: 50%;
+  min-height: 40px;
+  min-width: 40px;
+  height: 40px;
+  width: 40px;
+}
+
+div.clip {
+  font-style: italic;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+footer {
+  bottom: 0;
+  font-size: 8pt;
+  height: 1em;
+  margin: 1%;
+  padding: 2pt;
+  position: absolute;
+  width: 96%;
+}
+
+.footer-span {
+  border: 4px double;
+  padding: 3px 5px;
+}
+
+footer a {
+  font-style: italic;
+}
+
+footer #noscript {
+  border: 4px double black;
+  color: red;
+  display: inline-block;
+  text-align: center;
+  width: 100%;
+}
+
+li {
+  padding: 10px;
+}

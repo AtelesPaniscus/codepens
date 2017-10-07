@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>TwitchTV JSON API</title>
+  
+  
+  <link rel='stylesheet prefetch' href='https://fonts.googleapis.com/css?family=Russo+One'>
+<link rel='stylesheet prefetch' href='https://fonts.googleapis.com/css?family=Audiowide'>
+
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+  <div id="page">
+  <header hidden>
+    TwitchTV Streamers
+  </header>
+
+  <main>
+    <div id=header>
+      <span id="twitch">
+        TWITCH TV STREAMERS
+      </span>
+      <form>
+        <label for="all">All</label>
+        <input type="radio" name="filter" id="all" checked>
+        <br />
+        <label for="online">Online</label>
+        <input type="radio" name="filter" id="online">
+        <br />
+        <label for="offline">Offline</label>
+        <input type="radio" name="filter" id="offline">
+      </form>
+    </div>
+    <div id=stream-data >
+      <p>
+      Retrieving stream data &hellip;
+      </p>
+    </div>
+  </main>
+
+  <footer>
+    <span hidden class="footer-span" style="float:left;">
+      Pen by
+      <a href="https://www.freecodecamp.com/atelespaniscus">
+        Paniscus Ateles</a>, 2017
+    </span>
+    <span id="noscript">
+      Please enable JavaScript.
+      This pen requires jQuery from cloudflare.com.
+    </span>
+    <span hidden class="footer-span" style="float:right;">
+      <a href="https://www.freecodecamp.org/challenges/use-the-twitchtv-json-api">
+        Free Code Camp Project #6</a>
+    </span>
+  </footer>
+</div>
+
+<!--
+<h1>
+  Use the Twitchtv JSON API
+</h1>
+<ol>
+  <li>
+    <strong>Objective:</strong>
+    Build a CodePen.io app that is functionally similar to
+    <a href="https://codepen.io/FreeCodeCamp/full/Myvqmo/">
+      this</a>.
+  </li>
+  <li>
+    Fulfill the below user stories. Use whichever libraries or APIs you need. Give it your own personal style.
+  </li>
+  <li>
+    <strong>User Story:</strong>
+    I can see whether Free Code Camp is currently streaming on Twitch.tv.
+  </li>
+  <li>
+    <strong>User Story:</strong>
+    I can click the status output and be sent directly to the Free Code Camp's Twitch.tv channel.
+  </li>
+  <li>
+    <strong>User Story:</strong>
+    If a Twitch user is currently streaming, I can see additional details about what they are streaming.
+  </li>
+  <li>
+    <strong>Hint:</strong>
+    See an example call to Twitch.tv's JSONP API
+    <a href="http://forum.freecodecamp.org/t/use-the-twitchtv-json-api/19541">
+      here</a>.
+  </li>
+  <li>
+    <strong>Hint:</strong>
+    The relevant documentation about this API call is
+    <a href="https://dev.twitch.tv/docs/v5/reference/streams/#get-stream-by-user">
+      here</a>.
+  </li>
+  <li>
+    <strong>Hint:</strong>
+    Here's an array of the Twitch.tv usernames of people who regularly stream:
+    <br />
+    <br />["ESL_SC2",<br /> "OgamingSC2",<br /> "cretetion",<br /> freecodecamp",<br /> "storbeck",<br /> "habathcx",<br /> RobotCaleb",<br /> "noobs2ninjas"]
+  </li>
+  <li>
+    UPDATE: Due to a change in conditions on API usage explained here Twitch.tv now requires an API key, but we've built a workaround. Use https://wind-bow.gomix.me/twitch-api instead of twitch's API base URL (i.e. https://api.twitch.tv/kraken ) and you'll still be able to get account information, without needing to sign up for an API key.
+  </li>
+  <li>
+    Remember to use Read-Search-Ask if you get stuck.
+  </li>
+  <li>
+    When you are finished, click the "I've completed this challenge" button and include a link to your CodePen.
+  </li>
+  <li>
+    You can get feedback on your project by sharing it with your friends on Facebook.
+  </li>
+</ol>
+-->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+
+    <script  src="js/index.js"></script>
+
+</body>
+</html>
