@@ -6,6 +6,10 @@ Source archived from CodePen.io using the 'export as zip' function.
 
   * Tribute Page - Ælfred the Great
   * Personal Portfolio Page - Paniscus Ateles
+  * Random Quote Machine
+  * Show The Local Weather
+  * Wikipedia Viewer
+  * TwitchTV JSON API
 
 The Orbitron font is for use in the Java Script Calculator.
 The sounds are for use by the Pomodoro Clock.
