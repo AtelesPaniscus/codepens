@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>JavaScript Calculator</title>
+  
+  
+  <link rel='stylesheet prefetch' href='https://fonts.googleapis.com/css?family=Orbitron'>
+
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+  <div id="page">
+  <header>
+    A Reverse Polish Calculator
+  </header>
+
+  <main>
+    <div id="display-area">
+      <div class="display" id="entry"></div>
+      <div class="display" id="formula"></div>
+      <div class="display" id="accumulator"></div>
+    </div>
+    <div id="button-area">
+      <div class="button-row">
+        <button class="clear red key">AC</button>
+        <button class="cancel red key">CE</button>
+        <button class="function key">÷</button>
+        <button class="function key">×</button>
+      </div>
+      <div class="button-row">
+        <button class="digit key">7</button>
+        <button class="digit key">8</button>
+        <button class="digit key">9</button>
+        <button class="function key">-</button>
+      </div>
+      <div class="button-row">
+        <button class="digit key">4</button>
+        <button class="digit key">5</button>
+        <button class="digit key">6</button>
+        <button class="function key">+</button>
+      </div>
+      <div class="button-row">
+        <button class="digit key">1</button>
+        <button class="digit key">2</button>
+        <button class="digit key">3</button>
+        <button class="enter tall key">=</button>
+      </div>
+      <div class="button-row">
+        <button class="digit wide key">0</button>
+        <button class="decimal digit key">.</button>
+      </div>
+    </div>
+    <div>
+      <br /><br /><br />
+    </div>
+  </main>
+
+  <footer>
+    <span hidden class="footer-span" style="float:left;">
+      Pen by
+      <a href="https://www.freecodecamp.com/atelespaniscus">
+        Paniscus Ateles</a>, 2017
+    </span>
+    <span id="noscript">
+      Please enable JavaScript.
+      This pen requires jQuery from cloudflare.com.
+    </span>
+    <span hidden class="footer-span" style="float:right;">
+      <a href="https://www.freecodecamp.org/challenges/build-a-javascript-calculator">
+        Free Code Camp Project #7</a>
+    </span>
+  </footer>
+</div>
+
+<!--
+<h1>
+  Build a JavaScript Calculator
+</h1>
+<ol>
+  <li>
+    <strong>Objective:</strong>
+    Build a CodePen.io app that is functionally similar to 
+    <a href="https://codepen.io/FreeCodeCamp/full/rLJZrA/">
+      this</a>.
+  </li>
+  <li>
+    Fulfill the below user stories. Use whichever libraries or APIs you need. Give it your own personal style.
+  </li>
+  <li>
+    <strong>User Story:</strong>
+    I can add, subtract, multiply and divide two numbers.
+  </li>
+  <li>
+    <strong>User Story:</strong>
+    I can clear the input field with a clear button.
+  </li>
+  <li>
+    <strong>User Story:</strong>
+    I can keep chaining mathematical operations together until I hit the equal button, and the calculator will tell me the correct output.
+  </li>
+  <li>
+    Remember to use Read-Search-Ask if you get stuck.
+  </li>
+  <li>
+    When you are finished, click the "I've completed this challenge" button and include a link to your CodePen. 
+  </li>
+  <li>
+    You can get feedback on your project by sharing it with your friends on Facebook.
+  </li>
+</ol>
+-->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+
+    <script  src="js/index.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,148 @@
+/* @font-face kit by Fonts2u (http://www.fonts2u.com) */
+
+@font-face {
+  font-family: "Orbitron";
+  src:
+    url("https://github.com/AtelesPaniscus/fcc-fed-codepens/raw/master/fonts/Orbitron_Medium/orbitron-medium.eot") format("eot"),
+    url("https://github.com/AtelesPaniscus/fcc-fed-codepens/raw/master/fonts/Orbitron_Medium/orbitron-medium.svg") format("svg"),
+    url("https://github.com/AtelesPaniscus/fcc-fed-codepens/raw/master/fonts/Orbitron_Medium/orbitron-medium.ttf") format("truetype"),
+    url("https://github.com/AtelesPaniscus/fcc-fed-codepens/raw/master/fonts/Orbitron_Medium/orbitron-medium.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  background-color: silver;
+  height: 98%;
+  margin: 0;
+  padding: 0;
+}
+
+#page {
+  min-height: 100%;
+/*position: relative;*/
+}
+
+header {
+  color: black;
+  font-size: 24pt;
+  font-weight: bold;
+  padding: 24px;
+  text-align: center;
+}
+
+main {
+  background-color: ivory;
+  border: 1px solid black;
+  border-radius: 5%;
+  padding: 1em;
+  text-align: center;
+  width: 200px;
+
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -33%);
+}
+
+xmain {
+  margin: auto;
+  padding: 1em;
+  text-align: center;
+  width: 200px;
+}
+
+#display-area {
+  background-color: palegoldenrod;
+  border: 1px solid black;
+  border-radius: 5%;
+  color: red;
+  font-family: Orbitron, monospace;
+  font-size: 10pt;
+  margin: auto;
+  text-align: right;
+  width: 190px;
+}
+
+.display {
+  min-height: 20px;
+  padding-right: 10px;
+}
+
+#entry {
+  font-size: 18pt;
+  margin-top: 4px;
+  min-height: 30px;
+}
+
+.button-row {
+  clear: left;
+  margin: auto;
+  width: 200px;
+}
+
+.key {
+  border-radius: 10%;
+  background-color: #333333;
+  color: white;
+  float: left;
+  font-family: Orbitron, monospace;
+  font-size: 12pt;
+  margin: 5px;
+  min-height: 40px;
+  min-width: 40px;
+}
+
+.key:hover {
+  cursor: pointer;
+}
+
+.key:disabled {
+  cursor: default;
+}
+
+.red {
+  background-color: red;
+  font-size: 10pt;
+  padding: 0pt;
+}
+
+.wide {
+  min-width: 90px;
+}
+
+.tall {
+  float: right;
+  min-height: 90px;
+}
+
+footer {
+  bottom: 0;
+  font-size: 8pt;
+  height: 1em;
+  margin: 1%;
+  padding: 2pt;
+  position: absolute;
+  width: 96%;
+}
+
+.footer-span {
+  border: 4px double;
+  padding: 3px 5px;
+}
+
+footer a {
+  font-style: italic;
+}
+
+footer #noscript {
+  border: 4px double black;
+  color: red;
+  display: inline-block;
+  text-align: center;
+  width: 100%;
+}
+
+li {
+  padding: 10px;
+}
