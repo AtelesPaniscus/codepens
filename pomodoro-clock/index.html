@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>Pomodoro Clock</title>
+  
+  
+  
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+  <div id="page">
+  <header>
+    A Pomodoro Clock
+  </header>
+
+  <main>
+    <span id="break-area">
+      <p>
+        Break Length
+      </p>
+      <button id="decr-break"
+              title="shorten breaks">-</button>
+      <span id="break-length" class="digits">5</span>
+      <button id="incr-break"
+              title="lengthen breaks">+</button>
+    </span>
+    <span id="control-area">
+      <button id="goto-start"
+              title="restart interval">&#x21ba;</button>
+      <button id="goto-end"
+              title="skip interval">&#x21bb;</button>
+      <br />
+      <button id="backwards"
+              title="backwards 1 minute">«</button>
+      <button id="forwards"
+              title="forwards 1 minute">»</button>
+      <br />
+    </span>
+    <span id="session-area">
+      <p>
+        Session Length
+      </p>
+      <button id="decr-session"
+              title="shorten sessions">-</button>
+      <span id="session-length" class="digits">25</span>
+      <button id="incr-session"
+              title="lengthen sessions">+</button>
+    </span>
+    <p style="clear:both;">
+      <br />
+      <br />
+      <br />
+    </p>
+    <div id="clock-ring">
+      <div id=left-leaf>
+      </div>
+      <div id=right-leaf>
+      </div>
+      <div id="clock-area">
+        <p id=session>
+          Session
+        </p>
+        <p id=timeToGo>
+          25:00
+        </p>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <span hidden class="footer-span" style="float:left;">
+      Pen by
+      <a href="https://www.freecodecamp.com/atelespaniscus">
+        Paniscus Ateles</a>, 2017
+    </span>
+    <span id="noscript">
+      Please enable JavaScript.
+      This pen requires jQuery from cloudflare.com.
+    </span>
+    <span hidden class="footer-span" style="float:right;">
+      <a href="https://www.freecodecamp.org/challenges/build-a-pomodoro-clock">
+        Free Code Camp Project #8</a>
+    </span>
+  </footer>
+</div>
+
+<!--
+<h1>
+  Build a Pomodoro Clock
+</h1>
+<ol>
+  <li>
+    <strong>Objective:</strong>
+    Build a CodePen.io app that is functionally similar to 
+    <a href="https://codepen.io/FreeCodeCamp/full/aNyxXR/">
+      this</a>.
+  </li>
+  <li>
+    Fulfill the below user stories. Use whichever libraries or APIs you need. Give it your own personal style.
+  </li>
+  <li>
+    <strong>User Story:</strong>
+    I can start a 25 minute pomodoro, and the timer will go off once 25 minutes has elapsed.
+  </li>
+  <li>
+    <strong>User Story:</strong>
+    I can reset the clock for my next pomodoro.
+  </li>
+  <li>
+    <strong>User Story:</strong>
+    I can customize the length of each pomodoro.
+  </li>
+  <li>
+    Remember to use Read-Search-Ask if you get stuck.
+  </li>
+  <li>
+    When you are finished, click the "I've completed this challenge" button and include a link to your CodePen.
+  </li>
+  <li>
+    You can get feedback on your project by sharing it with your friends on Facebook.
+  </li>
+</ol>
+-->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+
+    <script  src="js/index.js"></script>
+
+</body>
+</html>
