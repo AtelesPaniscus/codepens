@@ -1,0 +1,124 @@
+body {
+  background-color: lightgrey;
+  height: 98%;
+  margin: 0;
+  padding: 0;
+}
+
+#page {
+  min-height: 100%;
+/*position: relative;*/
+}
+
+header {
+  color: black;
+  font-size: 24pt;
+  font-weight: bold;
+  padding: 24px;
+  text-align: center;
+}
+
+main {
+  padding-bottom: 1em;
+  text-align: center;
+
+  position: fixed; 
+  left: 50%;
+  top: 50%; 
+  transform: translate(-50%, -33%);
+}
+
+.reset-button {
+  background-color: lightgreen;
+  margin: 5px;
+  min-height: 25px;
+  min-width: 54px;
+}
+
+.reset-button:hover {
+  cursor: pointer;
+}
+
+.message {
+  padding: 5px;
+}
+
+.selection {
+  background-color: lightblue;
+  margin: 1px;
+  min-height: 25px;
+  min-width: 25px;
+}
+
+.selection:hover {
+  cursor: pointer;
+}
+
+#play-area {
+  background-color: black;
+  border: 20px solid chocolate;
+  border-radius: 10px;
+  margin: 20px auto;
+  padding: 20px;
+  height: 150px;
+  width: 150px;
+}
+
+.row {
+  background-color: transparent;
+  clear: left;
+}
+
+.square {
+  background-color: transparent;
+  border-style: solid;
+  border-color: white;
+  color: white;
+  float: left;
+  font-family: cursive monospace;
+  font-size: 20pt;
+  min-height: 50px;
+  min-width: 50px;
+  opacity: 1.0;
+  transition: opacity 3s;
+  transition-delay: 0s;
+}
+
+.square:hover {
+  cursor: pointer;
+}
+
+.square:disabled {
+  cursor: text;
+}
+
+footer {
+  bottom: 0;
+  font-size: 8pt;
+  height: 1em;
+  margin: 1%;
+  padding: 2pt;
+  position: absolute;
+  width: 96%;
+}
+
+.footer-span {
+  border: 4px double;
+  padding: 3px 5px;
+}
+
+footer a {
+  font-style: italic;
+}
+
+footer #noscript {
+  border: 4px double black;
+  color: red;
+  display: inline-block;
+  text-align: center;
+  width: 100%;
+}
+
+li {
+  padding: 10px;
+}

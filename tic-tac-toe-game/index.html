@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>Tic Tac Toe Game</title>
+  
+  
+  
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+  <div id="page">
+  <header>
+    A Noughts and Crosses Game
+  </header>
+
+  <main>
+    <div id=control-area>
+      <button id="reset-button" class="reset-button">
+        Reset
+      </button>
+      <div id="dialogue" class="message">
+        Choose to play yourself (1) or me (2)
+      </div>
+      <div id="move" class="message" hidden>
+        X to play
+      </div>
+      <button id="play-1" class="first selection">
+        1
+      </button>
+      <button id="play-2" class="first selection">
+        2
+      </button>
+      <button id="play-O" class="second selection" hidden>
+        O
+      </button>
+      <button id="play-X" class="second selection" hidden>
+        X
+      </button>
+    </div>
+    <div id=play-area>
+      <div class="row">
+        <button id="square-7" class="square"
+          style="border-width: 0px;">
+        </button>
+        <button id="square-8" class="square"
+          style="border-width: 0px 2px;">
+        </button>
+        <button id="square-9" class="square"
+          style="border-width: 0px;">
+        </button>
+      </div>
+      <div class="row">
+        <button id="square-4" class="square"
+          style="border-width: 2px 0px;">
+        </button>
+        <button id="square-5" class="square"
+          style="border-width: 2px;">
+        </button>
+        <button id="square-6" class="square"
+          style="border-width: 2px 0px;">
+        </button>
+      </div>
+      <div class="row">
+        <button id="square-1" class="square"
+          style="border-width: 0px;">
+        </button>
+        <button id="square-2" class="square"
+          style="border-width: 0px 2px;">
+        </button>
+        <button id="square-3" class="square"
+          style="border-width: 0px;">
+        </button>
+      </div>
+  </main>
+
+  <footer>
+    <span hidden class="footer-span" style="float:left;">
+      Pen by
+      <a href="https://www.freecodecamp.com/atelespaniscus">
+        Paniscus Ateles</a>, 2017
+    </span>
+    <span id="noscript">
+      Please enable JavaScript.
+      This pen requires jQuery from cloudflare.com.
+    </span>
+    <span hidden class="footer-span" style="float:right;">
+      <a href="https://www.freecodecamp.org/challenges/build-a-tic-tac-toe-game">
+        Free Code Camp Project #9</a>
+    </span>
+  </footer>
+</div>
+
+<!--
+<h1>
+  Build a Tic Tac Toe Game
+</h1>
+<ol>
+  <li>
+    <strong>Objective:</strong>
+    Build a CodePen.io app that is functionally similar to
+    <a href="https://codepen.io/FreeCodeCamp/full/KzXQgy>/">
+      this</a>.
+  </li>
+  <li>
+    Fulfill the below user stories. Use whichever libraries or APIs you need. Give it your own personal style.
+  </li>
+  <li>
+    <strong>User Story:</strong>
+    I can play a game of Tic Tac Toe with the computer.
+  </li>
+  <li>
+    <strong>User Story:</strong>
+    My game will reset as soon as it's over so I can play again.
+  </li>
+  <li>
+    <strong>User Story:</strong>
+    I can choose whether I want to play as X or O.
+  </li>
+  <li>
+    Remember to use Read-Search-Ask if you get stuck.
+  </li>
+  <li>
+    When you are finished, click the "I've completed this challenge" button and include a link to your CodePen.
+  </li>
+  <li>
+    You can get feedback on your project by sharing it with your friends on Facebook.
+  </li>
+</ol>
+-->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+
+    <script  src="js/index.js"></script>
+
+</body>
+</html>
