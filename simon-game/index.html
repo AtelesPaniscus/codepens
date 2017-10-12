@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>Simon Game</title>
+  
+  
+  
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+  <div id="page">
+  <header id="title">
+      A Simon<sup
+        title="Milton Bradley Company, now Hasbro Inc."
+      >®</sup> Game
+  </header>
+
+  <main>
+    <div id="play-area">
+      <svg id="svg-area">
+        <!--
+        <path id="seg-1" class="segment" d="M150 0 L75 200 L225 200 Z"/>
+        -->
+        <path id="seg-1" class="segment"/>
+        <path id="seg-2" class="segment"/>
+        <path id="seg-3" class="segment"/>
+        <path id="seg-4" class="segment"/>
+        <circle cx="200" cy="200" r="90" fill="white"/>
+      </svg>
+      <div id="control-area">
+        <span style="float:left">
+          <button id="start-button" class="control button">
+          </button>
+          <br />
+          START
+        </span>
+        <span>
+            <button id="led" class="button">
+            </button>
+        </span>
+        <span style="float:right">
+          <button id="strict-button" class="control button">
+          </button>
+          <br />
+          STRICT
+        </span>
+      </div>
+      <div id="count-area">
+        <button id="count"></button>
+        <br />
+        &nbsp;&nbsp;COUNT
+      </div>
+      <div id="on-off-pair">
+        <span style="vertical-align:super;">
+          OFF
+        </span>
+        <span id="on-off-control">
+          <button id="switch-off" class="onoff button">
+          </button>
+          <button id="switch-on" class="onoff button">
+          </button>
+        </span>
+        <span style="vertical-align:super;">
+          ON
+        </span>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <span hidden class="footer-span" style="float:left;">
+      Pen by
+      <a href="https://www.freecodecamp.com/atelespaniscus">
+        Paniscus Ateles</a>, 2017
+    </span>
+    <span id="noscript">
+      Please enable JavaScript.
+      This pen requires jQuery from cloudflare.com.
+    </span>
+    <span hidden class="footer-span" style="float:right;">
+      <a href="https://www.freecodecamp.org/challenges/build-a-simon-game">
+        Free Code Camp Project #10</a>
+    </span>
+  </footer>
+</div>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+
+    <script  src="js/index.js"></script>
+
+</body>
+</html>
