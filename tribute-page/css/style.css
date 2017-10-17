@@ -1,4 +1,39 @@
-body { margin-top: 40px; margin-bottom: 60px; }
-aside { font-family: serif; font-size: 16pt; }
-footer { border-style: double; }
-summary { cursor: pointer; margin-left: 15px; }
+body {
+  margin-top: 40px; 
+  margin-bottom: 60px;
+}
+
+aside {
+  font-family: serif; font-size: 16pt;
+}
+
+footer {
+  bottom: 0;
+  font-size: 8pt;
+  height: 1em;
+  margin: 1%;
+  padding: 2pt;
+  position: relative;
+  width: 96%;
+}
+
+.footer-span {
+  border: 4px double;
+  padding: 3px 5px;
+}
+
+footer a {
+  font-style: italic;
+}
+
+#noscript {
+  border: 4px double black;
+  color: red;
+  display: inline-block;
+  text-align: center;
+  width: 100%;
+}
+
+summary {
+  cursor: pointer; margin-left: 15px;
+}
