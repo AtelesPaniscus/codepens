@@ -23,7 +23,9 @@
   <nav id="navbar" class="panel-heading navbar navbar-default">
     <div class="container-fluid">
       <div class="navbar-header">
-        <a class="navbar-brand" href="#">Paniscus Ateles</a>
+        <a class="navbar-brand" href="#">
+          Paniscus Ateles
+        </a>
       </div>
       <ul class="nav navbar-nav navbar-right">
         <li><a href="#">Home</a></li>
@@ -35,85 +37,221 @@
   </nav>
 
   <section id="paniscus" class="jumbotron panel-body">
-    <h1 class="text-center"><strong>Paniscus Ateles</strong></h1>
-    <p class="text-center"><em>[rĕd ′fāst′ spī′dər mŭng′kē]</em></p>
-    <div title="Photo credit: R. Day" id="avatar"></div>
-    <p class="intro"><span class="highlight">A wise old man of the woods foretold one day I would make an excellent web code monkey.  I blushed.</span></p>
-    <p class="intro"><span class="highlight">Overcoming my shyness, I joined the Free Code Camp.</span></p>
-    <p class="intro"><span class="highlight">This is my portfolio page.</span></p>
-    <p class="intro"><span class="highlight">I'm having fun hanging out with HTML and CSS.</span></p>
-    <p class="intro"><span class="highlight">I've had a swing round Bootstrap and JQuery.</span></p>
-    <p class="intro"><span class="highlight">I'm currently clambering up JavaScript.</span></p>
+    <p id="noscript">
+      Please enable JavaScript.
+      <br />
+       This pen requires bootstrap (from bootstrapcdn.com), jQuery (from cloudflare.com) and hieroglyphs (from fontawesome.com).
+    </p>
+    <h1 class="text-center">
+      <strong>Paniscus Ateles</strong>
+    </h1>
+    <p class="text-center">
+      <em>[rĕd ′fāst′ spī′dər mŭng′kē]</em>
+    </p>
+    <p class="intro">
+      <span class="highlight">
+        An old man of the woods foretold I would make an excellent web code monkey.
+      </span>
+    </p>
+    <div babytitle="Photo credit: R. Day"
+         title="Photo credit: Rafael Acorsi" id="avatar"></div>
+    <p class="intro">
+      <span class="highlight">
+        So I joined the Front End Development program at Free Code Camp.
+      </span>
+    </p>
+    <p class="intro">
+      <span class="highlight">
+        There I had fun hanging out with HTML and CSS.
+      </span>
+    </p>
+    <p class="intro">
+      <span class="highlight">
+        I took a swing around Bootstrap and responsive web design.
+      </span>
+    </p>
+    <p class="intro">
+      <span class="highlight">
+        Then I enjoyed clambering up JavaScript and down jQuery.
+        </span>
+    </p>
+    <p class="intro">
+      <span class="highlight">
+        Now I have embarked on the Back End Development program.
+      </span>
+    </p>
+    <p class="intro">
+      <span class="highlight">
+        This is my portfolio page.
+      </span>
+    </p>
   </section>
 
   <section id="portfolio" class="panel-body text-center">
-    <h1>My Portfolio So Far ...</h1>  <!--Thumbnails - In a carousel someday-->
-    <div class="row" style="margin-top: 50px;">
+    <div class="container">
       <div class="col-sm-3">
-        <a href="https://codepen.io/AtelesPaniscus/full/pRByQZ/" target="_blank">
-          <img id="ptp" class="thumbnailimage" alt="Tribute Page"
-               src="https://github.com/AtelesPaniscus/fcc-fed-codepens/blob/master/tribute-page/thumbnail.png?raw=true">
-          <div class="caption">
-            <p>Free Code Camp Tribute Page</p>
-          </div>
+        <h2>&nbsp;</h2>
+        <br />
+        <a class="btn btn-default"
+           role="button" title="Front End Development Certificate"
+href="https://www.freecodecamp.org/atelespaniscus/front-end-certification">
+          <img class="img-responsive"
+               alt="Front End Certificate"
+src="https://github.com/AtelesPaniscus/fcc-fed-codepens/raw/master/frontend-certificate.png>
         </a>
       </div>
-      <div class="col-sm-3">
-        <a href="https://codepen.io/AtelesPaniscus/full/qRGyNB/" target="_blank">
-          <img id="ppp" class="thumbnailimage" alt="Portfolio Page"
-               src="https://github.com/AtelesPaniscus/fcc-fed-codepens/blob/master/personal-portfolio-page/thumbnail.png?raw=true">
-          <div class="caption">
-            <p>Free Code Camp Portfolio Page</p>
+      <div class="col-sm-6">
+      <h2>My Portfolio So Far ...</h2>
+        <br />
+      <!--A carousel -->
+      <div id="projects" class="carousel slide" data-ride="carousel">
+
+        <!-- Indicators -->
+        <ol class="carousel-indicators"
+            style="color:black;">
+          <li data-target="#projects" data-slide-to="0"
+          class="active"></li>
+          <li data-target="#projects" data-slide-to="1"></li>
+          <li data-target="#projects" data-slide-to="2"></li>
+          <li data-target="#projects" data-slide-to="3"></li>
+          <li data-target="#projects" data-slide-to="4"></li>
+          <li data-target="#projects" data-slide-to="5"></li>
+          <li data-target="#projects" data-slide-to="6"></li>
+          <li data-target="#projects" data-slide-to="7"></li>
+          <li data-target="#projects" data-slide-to="8"></li>
+          <li data-target="#projects" data-slide-to="9"></li>
+        </ol>
+
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner">
+          <div class="item">
+            <a href="https://codepen.io/AtelesPaniscus/full/pRByQZ/" target="_blank">
+              <img class="project" alt="Tribute Page"
+src="https://github.com/AtelesPaniscus/fcc-fed-codepens/raw/master/tribute-page/thumbnail.png">
+            </a>
           </div>
+
+          <div class="item active">
+            <a href="https://codepen.io/AtelesPaniscus/full/qRGyNB/" target="_blank">
+              <img class="project" alt="FCC Portfolio Page"
+src="https://github.com/AtelesPaniscus/fcc-fed-codepens/raw/master/personal-portfolio-page/thumbnail.png">
+            </a>
+          </div>
+
+          <div class="item">
+            <a href="https://codepen.io/AtelesPaniscus/full/jGbVoM/" target="_blank">
+              <img class="project" alt="FCC Random Quotes"
+src="https://github.com/AtelesPaniscus/fcc-fed-codepens/raw/master/random-quote-machine/thumbnail.png">
+            </a>
+          </div>
+
+          <div class="item">
+            <a href="https://codepen.io/AtelesPaniscus/full/rGeBXj/" target="_blank">
+              <img class="project" alt="FCC Local Weather"
+src="https://github.com/AtelesPaniscus/fcc-fed-codepens/raw/master/show-the-local-weather/thumbnail.png">
+            </a>
+          </div>
+
+          <div class="item">
+            <a href="https://codepen.io/AtelesPaniscus/full/wrGaRO/" target="_blank">
+              <img class="project" alt="FCC Wikipedia Viewer"
+src="https://github.com/AtelesPaniscus/fcc-fed-codepens/raw/master/wikipedia-viewer/thumbnail.png">
+            </a>
+          </div>
+
+          <div class="item">
+            <a href="https://codepen.io/AtelesPaniscus/full/KXNXLx/" target="_blank">
+              <img class="project" alt="FCC TwitchTV Streamers"
+src="https://github.com/AtelesPaniscus/fcc-fed-codepens/raw/master/twitchtv-json-api/thumbnail.png">
+            </a>
+          </div>
+
+          <div class="item">
+            <a href="https://codepen.io/AtelesPaniscus/full/JrExKa/" target="_blank">
+              <img class="project" alt="FCC JavaScript Calculator"
+src="https://github.com/AtelesPaniscus/fcc-fed-codepens/raw/master/javascript-calculator/thumbnail.png">
+            </a>
+          </div>
+
+          <div class="item">
+            <a href="https://codepen.io/AtelesPaniscus/full/JrNpJL/" target="_blank">
+              <img class="project" alt="FCC Pomodoro Clock"
+src="https://github.com/AtelesPaniscus/fcc-fed-codepens/raw/master/pomodoro-clock/thumbnail.png">
+            </a>
+          </div>
+
+          <div class="item">
+            <a href="https://codepen.io/AtelesPaniscus/full/LzLKow/" target="_blank">
+              <img class="project" alt="FCC Noughts and Crosses"
+src="https://github.com/AtelesPaniscus/fcc-fed-codepens/raw/master/tic-tac-toe-game/thumbnail.png">
+            </a>
+          </div>
+
+          <div class="item">
+            <a href="https://codepen.io/AtelesPaniscus/full/BwdGVj/" target="_blank">
+              <img class="project" alt="FCC Simon Game"
+src="https://github.com/AtelesPaniscus/fcc-fed-codepens/raw/master/simon-game/thumbnail.png">
+            </a>
+          </div>
+        </div>
+
+        <!-- Left and right controls -->
+        <a class="left carousel-control" href="#projects" data-slide="prev">
+          <span class="glyphicon glyphicon-chevron-left"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="right carousel-control" href="#projects" data-slide="next">
+          <span class="glyphicon glyphicon-chevron-right"></span>
+          <span class="sr-only">Next</span>
         </a>
       </div>
+    </div>
       <div class="col-sm-3">
-        <a href="#portfolio" target!="_blank">
-          <img id="wip" class="thumbnailimage" alt="Coming Soon"
-               src="http://homebizzguide.com/wp-content/uploads/2013/04/WebsiteDesign-e1366253288384.jpg">
-          <div class="caption">
-            <p>Coming Soon</p>
-          </div>
-        </a>
-      </div>
-      <div class="col-sm-3">
-        <a href="#portfolio" target!="_blank">
-          <img id="csa" class="thumbnailimage" alt="Coming Soon After"
-               src="http://lerablog.org/wp-content/uploads/2013/05/webdesign-agency.jpg">
-          <div class="caption">
-            <p>Coming Soon After</p>
-          </div>
-        </a>
+        <!-- Back end certificate -->
       </div>
     </div>
   </section>
 
   <footer id="social" class="panel-footer text-center">
-  <!-- <h1>Social Media Links</h1><br> -->
-    <a href="https://www.freecodecamp.com/atelespaniscus/" target="_blank" class="btn" role="button"
+    <span class="footer-span" style="float:left;">
+      Pen by
+      <a href="https://www.freecodecamp.com/atelespaniscus">
+        Paniscus Ateles</a>, 2017
+    </span>
+    <span>
+    <!-- <h1>Social Media Links</h1><br> -->
+    <a href="https://www.freecodecamp.com/atelespaniscus/"
+       target="_blank" class="btn" role="button"
        title="Paniscus Ateles @ Free Code Camp">
       <i style="font-size:20pt" class="img-responsive fa fa-free-code-camp"></i>
     </a>
-    <a href=#social class="btn" role="button" onclick="this.style.visibility='hidden'"
+    <a href=#social
+       class="btn" role="button" onclick="this.style.visibility='hidden'"
        title="Don't be silly">
       <i style="font-size:20pt" class="img-responsive fa fa-linkedin"></i>
     </a>
-    <a href="https://www.facebook.com/PaniscusAteles/" target="_blank" class="btn" role="button"
+    <a href="https://www.facebook.com/PaniscusAteles/"
+       target="_blank" class="btn" role="button"
        title="Paniscus Ateles @ Facebook">
       <i style="font-size:20pt" class="img-responsive fa fa-facebook"></i>
     </a>
-    <a href=#social class="btn" role="button" onclick="this.style.visibility='hidden'"
+    <a href=#social
+       class="btn" role="button" onclick="this.style.visibility='hidden'"
        title="I'm simian, not avian">
       <i style="font-size:20pt" class="img-responsive fa fa-twitter"></i>
     </a>
-    <a href="https://github.com/AtelesPaniscus/" target="_blank" class="btn" role="button"
+    <a href="https://github.com/AtelesPaniscus/"
+       target="_blank" class="btn" role="button"
        title="Paniscus Ateles @ GitHub">
-      <i style="font-size:20pt" class="img-responsive fa fa-github"></i>
+      <i style="font-size:20pt;margin-bottom=50px;" class="img-responsive fa fa-github"></i>
     </a>
-    <a href=#social class="btn" role="button">
-      <img id="a50" title="Article 50" alt="Article 50" class="img-responsive" width=32px height=32px src="http://www.envrisk.com/wp-content/uploads/2013/08/Hazardous-Waste-Symbol.jpg">
-    </a>
-  <footer>
+    </span>
+    <!-- <h1>Social Media Links - Done</h1><br> -->
+    <span class="footer-span" style="float:right;">
+      <a href="https://www.freecodecamp.org/challenges/build-a-simon-game">
+        Free Code Camp Project #2</a>
+    </span>
+  </footer>
 </div>
 
 <!--
@@ -166,7 +304,7 @@
   </p>
 </div>
 -->
-  <script src='https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js'></script>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
 <script src='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js'></script>
 <script src='https://use.fontawesome.com/aa4465e78d.js'></script>
 

@@ -1,6 +1,6 @@
 body {
-  margin-top: 40px;
-  margin-bottom: 40px;
+  margin-top: 1px;
+  margin-bottom: 1px;
 }
 
 #page {
@@ -10,17 +10,37 @@ body {
   background: -o-radial-gradient(circle, , darkseagreen, mediumseagreen, lightseagreen); /* Opera 11.6 to 12.0 */
   background: -moz-radial-gradient(circle, darkseagreen, mediumseagreen, lightseagreen); /* Firefox 3.6 to 15 */
   background: radial-gradient(circle, darkseagreen, mediumseagreen, lightseagreen); /* Standard syntax */
+  padding: 5px;
 }
 
-#navbar         { font-weight: bold; background-color: initial; border-width: 0px; }
-#paniscus       { font-weight: bold; background-color: initial; }
-#portfolio      { font-weight: bold; background-color: initial; }
-#social         { background-color: initial; border-color: initial; }
+#navbar {
+  background-color: transparent;
+  border-width: 0px;
+  font-weight: bold;
+}
+
+#paniscus {
+  background-color: transparent;
+  font-weight: bold;
+}
+
+#portfolio {
+  background-color: transparent;
+  font-weight: bold;
+  max-height: 500px;
+}
+
+#social {
+  background-color: transparent;
+  border-color: initial;
+}
 
 #navbar div a   { font-size: 16pt; color: cyan; }
 #navbar  ul a   { font-size: 20pt; color: blue; }
 
 p.intro::first-letter { font-size:150%; }
+
+p.intro { line-height: 1.0; }
 
 .highlight       { display: inline; }
 
@@ -33,13 +53,53 @@ p.intro::first-letter { font-size:150%; }
     height: 240px;
     float: right;
     background: url("http://pin.primate.wisc.edu/fs/sheets/images/329lg.jpg");
+    background: url("https://c1.staticflickr.com/3/2566/3756255538_1c5a693b5a_b.jpg");
     background-size: cover;
-    border-radius: 200px;
+    border-radius: 50%;
 }
 
-.thumbnailimage {
-    width: 100%;
-    border: 1px solid black;
-    border-radius: 4px;
-    padding: 5px;
+#projects {
+  margin: auto;
+  max-width: 350px;
+}
+
+.item {
+  margin: auto;
+}
+
+.glyphicon {
+  color: darkgreen;
+}
+
+.project {
+  margin: auto;
+  height: 425px;
+  width: 250px;
+}
+
+footer {
+  bottom: 0;
+  font-size: 8pt;
+  height: 1em;
+  margin: 1%;
+  padding: 2pt;
+  position: relative;
+  width: 96%;
+}
+
+.footer-span {
+  border: 4px double;
+  padding: 3px 5px;
+}
+
+footer a {
+  color: darkblue; 
+  font-style: italic;
+}
+
+#noscript {
+  border: 4px double black;
+  color: darkblue;
+  text-align: center;
+  width: 100%;
 }
