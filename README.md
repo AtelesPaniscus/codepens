@@ -18,4 +18,7 @@ Source archived from CodePen.io using the 'export as zip' function.
 The Orbitron font is for use in the Java Script Calculator.
 The sounds are for use by the Pomodoro Clock.
 
+Thumbnails for each codepen project created and added by hand.
+They are referenced by the revised Personal Portfolio page.
+
 <!-- EOF -->
